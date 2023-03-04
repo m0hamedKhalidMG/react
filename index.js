@@ -6,7 +6,7 @@ app.get('/', (_req, res) => {
 })
 
 app.get('/test', (_req, res) => {
-  res.send('test2')
+  res.send('mohamed')
 })
 
 const port = process.env.PORT || 3000
